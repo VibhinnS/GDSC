@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.headerforprojects {
+    min-height: 100vh;
+    background-image: url("images/project3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: black;
+  }
+  
+  .overimage {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* add an overlay with reduced opacity */
+  }
+  
+  .new-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .new-heading h1 {
+    color: #ffffff; /* set the color of the text */
+    font-size: 48px; /* adjust the font size */
+    font-family: 'Work Sans', sans-serif; /* choose a font from Google Fonts */
+    font-weight: 600; /* adjust the font weight */
+    font-size: 80px;
+  }
+
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+
+}
+
+.hero-section{
+    width: 90%;
+    font-family: "Work Sans", sans-serif;
+    font-weight:1800;
+    font-size: 53px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.main-bodywork{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Manrope", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    height: auto;
+
+
+}
+
+.body-heading{
+    font-family: "Work Sans"m sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.content{
+    font-family: "Work Sans"m sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+
+.image-slider{
+
+    position: center;
+    width: 800px;
+    height: 500px;
+    margin: 16px;
+    background: black;
+
+}
+
+
+.image-slider .slide{
+    z-index: 1;
+    position: center;
+    width: 100%;
+
+}
+
+.image-slider .slide img{
+    z-index: 1;
+    border-radius: 5px;
+
+}
+
+.image-slider .slide .info{
+    position: center;
+    top: 0;
+    padding: 15px 30px;
+
+}
+
+
+.image-slider .slide .info h2{
+    color: white;
+    background: rgb(0, 0, 0,0.1);
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.image-slider .slide .info p{
+    color: white;
+    background: rgba(0,0,0,0.1);
+    font-size: 16px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+
+}
